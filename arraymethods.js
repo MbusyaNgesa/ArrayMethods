@@ -41,3 +41,24 @@ let names6 = ["Radul", "Emet", "Palmer", "Rose"];
 
 names6.splice(1, 2, "Bill", "Alsina");
 console.log(names6);
+
+//slice() method
+let names7 = ["Eren", "Emet", "Palmer", "Rose"];
+
+let slice = names7.slice(1, 3);
+console.log(names7);
+console.log(slice);
+
+//The 1 picks Emet(in array counting method starting from 0), then 3 picks out Palmer(but in normal counting method starting from 1)
+
+//indexOf()
+let names8 = ["Ralia", "Emet", "Palmer", "Rose"];
+
+let index = names8.indexOf("Palmer");
+console.log(index);
+
+//if an array is used twice we use the following
+let names9 = ["Ralia", "Emet", "Palmer", "Rose", "Ralia"];
+
+let indexs = names9.lastIndexOf("Ralia");
+console.log(indexs);
