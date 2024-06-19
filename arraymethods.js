@@ -62,3 +62,42 @@ let names9 = ["Ralia", "Emet", "Palmer", "Rose", "Ralia"];
 
 let indexs = names9.lastIndexOf("Ralia");
 console.log(indexs);
+
+//flat() method
+
+let names10 = [1, 2, 3, [4, 5], 6];
+let flat = names10.flat();
+console.log(flat);
+
+//Nested array inside a nested array
+let nums1 = [1, 2, 3, [4, 5, [6, 7, 8]]];
+let flatNums1 = nums1.flat(2);
+console.log(flatNums1);
+
+//Even or Odd
+// let k = 10;
+/*
+let m = 5;
+
+if (k > 2 || m < 3) {
+  console.log(`This is an Odd Number`);
+} else if (m > 3) {
+  console.log(`This is an odd number`);
+} else {
+  console.log(`Not Odd or Even`);
+}
+
+//
+function Nums(Even, Odd) {
+  return (Even / 2 && 1) || Odd / 1;
+}
+console.log(Nums(4, 3));
+
+//
+function EvenOdd(numbers) {
+  if (numbers / 2) {
+    console.log(`Odd`);
+  } else {
+    console.log(`Even`);
+  }
+}*/
