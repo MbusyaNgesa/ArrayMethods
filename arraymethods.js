@@ -102,6 +102,14 @@ console.log(count);
 for (let i = 0; i < names13.length; i++);
 console.log(names13[i]);
 */
+
+//map() method
+
+let nums2 = [1, 2, 3, 4, 5];
+
+let double = nums2.map((n) => n * 2);
+console.log(double);
+
 //Even or Odd
 // let k = 10;
 /*
