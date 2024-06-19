@@ -74,6 +74,34 @@ let nums1 = [1, 2, 3, [4, 5, [6, 7, 8]]];
 let flatNums1 = nums1.flat(2);
 console.log(flatNums1);
 
+//High Order Array Methods
+
+//forEach() Method
+let names11 = ["Vanessa", "Lara", "Sean", "Baggs"];
+names11.forEach((n) => {
+  console.log(n);
+});
+
+//counting the number of arrays
+let names12 = ["Vanessa", "Lara", "Sean", "Baggs"];
+
+let count = 0;
+names12.forEach((k) => {
+  count++;
+});
+
+console.log(count);
+
+//Another way of using forEach
+/*let names13 = ["Mimi", "Mars", "Val", "Reya"];
+
+ names13.forEach((k) => {
+  console.log(k);
+});
+
+for (let i = 0; i < names13.length; i++);
+console.log(names13[i]);
+*/
 //Even or Odd
 // let k = 10;
 /*
