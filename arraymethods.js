@@ -110,6 +110,17 @@ let nums2 = [1, 2, 3, 4, 5];
 let double = nums2.map((n) => n * 2);
 console.log(double);
 
+//filter()
+
+let books = [
+  { title: "Mndarin", author: "Shane" },
+  { title: "Pigs Tale", author: "Mistica" },
+  { title: "Romeo and Juliet", author: "Alisson Mugambi" },
+];
+
+let written = books.filter((b) => b.author === "Shane");
+console.log(written);
+
 //Even or Odd
 // let k = 10;
 /*
