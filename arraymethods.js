@@ -137,6 +137,13 @@ let nums4 = [1, 3, 5, 7, 9];
 let greater = nums4.some((n) => n > 9);
 console.log(greater);
 
+//every()
+/* Similar to some(), but for this every condition must be true */
+
+let nums5 = [1, 3, 5, 7, 9];
+let greatest = nums5.every((n) => n > 3);
+console.log(greatest);
+
 /*One can also add another value that will be counted as the initial value
 since if its not declared the initial value will start at first digit(1 in this case)
 So 12 is oyr added initial value*/
