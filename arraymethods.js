@@ -129,6 +129,14 @@ let nums3 = [1, 3, 5, 7, 9];
 let total = nums3.reduce((total, currentVal) => total + currentVal, 12);
 console.log(total);
 
+//some()
+/*Checks to see if an array meets a certain condition that is tsated 
+and decides whether its true or false depending on the set parameters */
+let nums4 = [1, 3, 5, 7, 9];
+
+let greater = nums4.some((n) => n > 9);
+console.log(greater);
+
 /*One can also add another value that will be counted as the initial value
 since if its not declared the initial value will start at first digit(1 in this case)
 So 12 is oyr added initial value*/
