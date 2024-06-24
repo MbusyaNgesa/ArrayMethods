@@ -144,6 +144,29 @@ let nums5 = [1, 3, 5, 7, 9];
 let greatest = nums5.every((n) => n > 3);
 console.log(greatest);
 
+//find()
+/* Checks for value in an array and returns what has been specified/called */
+
+let nums6 = [
+  { title: "Mndarin", author: "Shane" },
+  { title: "Pigs Tale", author: "Mistica" },
+  { title: "Romeo and Juliet", author: "Alisson Mugambi" },
+];
+
+let book = nums6.find((b) => b.title === "Pigs Tale");
+console.log(book.author);
+
+//findIndex()
+
+let nums7 = [
+  { title: "Mndarin", author: "Shane" },
+  { title: "Pigs Tale", author: "Mistica" },
+  { title: "Romeo and Juliet", author: "Alisson Mugambi" },
+];
+
+let book1 = nums6.findIndex((b) => b.title === "Mndarin");
+console.log(book1);
+
 /*One can also add another value that will be counted as the initial value
 since if its not declared the initial value will start at first digit(1 in this case)
 So 12 is oyr added initial value*/
