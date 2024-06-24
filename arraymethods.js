@@ -164,8 +164,33 @@ let nums7 = [
   { title: "Romeo and Juliet", author: "Alisson Mugambi" },
 ];
 
-let book1 = nums6.findIndex((b) => b.title === "Mndarin");
+let book1 = nums7.findIndex((b) => b.title === "Mndarin");
 console.log(book1);
+
+//sort()
+/* Arranges elements in order either alphanetically or numerically */
+
+//Example in Alphabets
+let letters = ["Vanessa", "Lara", "Sean", "Baggs"];
+
+let alph = letters.sort();
+console.log(alph);
+
+//Example in numbers
+
+let nums8 = [4, 1, 9, 3, 5];
+
+let number = nums8.sort();
+console.log(number);
+
+//Example with more than one digit numbers
+let nums9 = [12, 7, 100, 5, 81, 3];
+
+let number1 = nums9.sort((a, b) => a - b);
+console.log(number1);
+
+/* When 'a' subtracts 'b' and no negative vaue is formed, 'b' comes infront of 'a' and when 
+a negative value is formed, 'b' is smaller than 'a' and it comes first */
 
 /*One can also add another value that will be counted as the initial value
 since if its not declared the initial value will start at first digit(1 in this case)
