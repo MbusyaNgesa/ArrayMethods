@@ -121,6 +121,18 @@ let books = [
 let written = books.filter((b) => b.author === "Shane");
 console.log(written);
 
+//reduce()
+/*reduce reduces/shrinks the array to a single value by summing it up
+from the original currentValue to the last value*/
+let nums3 = [1, 3, 5, 7, 9];
+
+let total = nums3.reduce((total, currentVal) => total + currentVal, 12);
+console.log(total);
+
+/*One can also add another value that will be counted as the initial value
+since if its not declared the initial value will start at first digit(1 in this case)
+So 12 is oyr added initial value*/
+
 //Even or Odd
 // let k = 10;
 /*
